@@ -1,0 +1,32 @@
+* {
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: azure;
+    height: 80px;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu li{
+    list-style-type: none;
+    margin: 0 1rem;
+}
+
+.btn {
+    display: inline-block;
+    background-color: greenyellow;
+    color: red;
+    padding: .3em .8em;
+}
